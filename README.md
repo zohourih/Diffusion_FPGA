@@ -22,3 +22,9 @@ Refer to the following publications:
 - Hamid Reza Zohouri, "High Performance Computing with FPGAs and OpenCL," PhD thesis, Tokyo Institute of Technology, Tokyo, Japan, Aug. 2018. [[PDF]](https://arxiv.org/abs/1810.09773)
 
 The thesis has the most up-to-date results.
+
+## Contact
+
+Hamid Reza Zohouri <br />
+https://www.linkedin.com/in/hamid-reza-zohouri-9aa00230/ <br />
+http://github.com/zohourih
