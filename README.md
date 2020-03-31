@@ -1,18 +1,18 @@
 # Diffusion_FPGA
 This repository is based on original work from [Naoya Maruyma](https://github.com/naoyam) on implementing and optimizing first-order
 Diffusion 2D and 3D stencils for CPUs, GPUs and Xeon Phi. Original repository can be found [here](https://github.com/naoyam/benchmarks).
-The original implementation has been extended with an OpenCL implementation targetting Intel FPGAs using Intel FPGA SDK for OpenCL.
+The original implementation has been extended with an OpenCL implementation targeting Intel FPGAs using Intel FPGA SDK for OpenCL.
 This version implements a highly-optimized design for FPGA with combined spatial and temporal blocking and numerous
 FPGA-specific optimizations. Moreover, the OpenCL version has been extended to support up to fourth-order stencils.
 
 # Content
 ## common
-Common make configuration and timer, helper and power fucntions for Intel FPGAs, Nvidia GPUs and Intel CPUs
+Common make configuration and timer, helper and power functions for Intel FPGAs, Nvidia GPUs and Intel CPUs
 
 ## diffusion2d/diffusion3d
 Diffusion 2D/3D implementation for different hardware.
 Only OpenCL version supports high-order stencils and can be run on FPGAs.
-Refer to main README in each fodler for details of compiling and running the FPGA version, and original README for other versions.
+Refer to main README in each folder for details of compiling and running the FPGA version, and original README for other versions.
 
 # Detailed info
 Refer to the following publications:
