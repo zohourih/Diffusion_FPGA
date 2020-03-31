@@ -84,7 +84,7 @@ else
 	DASH = -
 	SPACE = =
 endif
-ALTERA_KERNEL_FLAGS += -g -v $(DASH)report
+ALTERA_KERNEL_FLAGS += -g -v $(DASH)report $(DASH)opt-arg$(SPACE)-nocaching
 ALTERA_HOST_CFLAGS += -DALTERA
 
 OPENCL_LDFLAGS = $(shell aocl link-config) -lOpenCL
