@@ -1,5 +1,5 @@
 # README for OpenCL version
-Refer to [original README](diffusion2d/README) for other versions.
+Refer to [original README](README) for other versions.
 
 # Files
 **diffusion_opencl.cc:** OpenCL host code  
