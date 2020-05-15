@@ -57,11 +57,10 @@ ifneq ($(REG),)
 	NVCC_ARCH += --maxrregcount $(REG)
 endif
 
-ifdef RAD
-	ALTERA_HOST_CFLAGS += -DRAD=$(RAD)
-	ALTERA_KERNEL_FLAGS += -DRAD=$(RAD)
-	CXXFLAGS += -DRAD=$(RAD)
-endif
+RAD := 1
+ALTERA_HOST_CFLAGS += -DRAD=$(RAD)
+ALTERA_KERNEL_FLAGS += -DRAD=$(RAD)
+CXXFLAGS += -DRAD=$(RAD)
 
 ifdef TIME
 	ALTERA_HOST_CFLAGS += -DTIME=$(TIME)
