@@ -26,5 +26,5 @@ The thesis has the most up-to-date results.
 ## Contact
 
 Hamid Reza Zohouri <br />
-https://www.linkedin.com/in/hamid-reza-zohouri-9aa00230/ <br />
+https://www.linkedin.com/in/hamid-reza-zohouri-phd/ <br />
 http://github.com/zohourih
